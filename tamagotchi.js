@@ -2,6 +2,7 @@ function Tamagotchi() {
   this.hungry = false,
     this.sick = false,
     this.age = 0,
+
     this.feed = function() {
       if (this.hungry) {
         console.log("That was yummy!");
@@ -10,9 +11,11 @@ function Tamagotchi() {
         this.hungry = true;
       }
     },
+
     this.sleep = function() {
       console.log("zzzzzzzzZZZZZZZZZ");
     },
+
     this.medicate = function() {
       if (this.sick) {
         console.log("I feel much better!");
@@ -22,10 +25,12 @@ function Tamagotchi() {
         this.sick = true;
       }
     },
+
     this.increaseAge = function() {
       this.age += 1;
       console.log("Happy Birthday to me! I am " + this.age + " years old!");
     }
+    
 };
 
 var cat = new Tamagotchi();

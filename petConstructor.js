@@ -13,6 +13,3 @@ var cat = new Pet("meowwww!!!", false);
 
 dog.makeNoise();
 cat.makeNoise();
-
-
-
